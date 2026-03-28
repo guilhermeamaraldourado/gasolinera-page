@@ -5,6 +5,8 @@ baseurl: "/gasolinera-page"
 
 title: Gasolinera
 description: "Abastecimentos, gastos com combustível e estatísticas — no iPhone e iPad."
+lang: pt-PT
+locale: pt_PT
 
 theme: jekyll-theme-cayman
 show_downloads: false

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'pt-PT' }}">
+  <head>
+    <meta charset="UTF-8">
+
+{% seo %}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <style id="gasolinera-base">
+      html { -webkit-text-size-adjust: 100%; }
+      *, *::before, *::after { box-sizing: border-box; }
+      body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 16px; line-height: 1.5; color: #606c71; background: #fff; }
+      #skip-to-content { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+      #skip-to-content:focus { position: fixed; top: 0.75rem; left: 0.75rem; z-index: 10000; width: auto; height: auto; margin: 0; padding: 0.5rem 1rem; clip: auto; overflow: visible; white-space: normal; background: #f4d03f; color: #111; text-decoration: none; border-radius: 4px; outline: 2px solid #111; }
+      .page-header { color: #fff; text-align: center; background-color: #159957; background-image: linear-gradient(120deg, #155799, #159957); padding: 2rem 1rem; }
+      @media screen and (min-width: 42em) { .page-header { padding: 3rem 4rem; } }
+      @media screen and (min-width: 64em) { .page-header { padding: 5rem 6rem; } }
+      .project-name { margin: 0 0 0.1rem; font-size: clamp(1.5rem, 5vw, 3.25rem); font-weight: normal; line-height: 1.2; }
+      .project-tagline { margin: 0 0 1.25rem; font-size: clamp(0.95rem, 2.5vw, 1.25rem); font-weight: normal; opacity: 0.88; line-height: 1.45; }
+      .btn { display: inline-block; margin-bottom: 0.5rem; padding: 0.65rem 1rem; color: rgba(255, 255, 255, 0.92); background-color: rgba(255, 255, 255, 0.1); border: 1px solid rgba(255, 255, 255, 0.28); border-radius: 0.3rem; text-decoration: none; font-size: 0.95rem; transition: background-color 0.15s ease, border-color 0.15s ease; }
+      .btn:hover { color: #fff; background-color: rgba(255, 255, 255, 0.2); border-color: rgba(255, 255, 255, 0.35); text-decoration: none; }
+      .main-content { max-width: 42rem; margin: 0 auto; padding: 2rem 1.25rem; font-size: 1.05rem; line-height: 1.65; color: #24292f; word-wrap: break-word; }
+      .main-content > :first-child { margin-top: 0; }
+      .main-content h2 { margin-top: 2rem; margin-bottom: 0.75rem; font-size: 1.3rem; font-weight: 600; color: #159957; }
+      .main-content p { margin: 0 0 1em; }
+      .main-content ul, .main-content ol { margin-top: 0; margin-bottom: 1em; padding-left: 1.25rem; }
+      .main-content li { margin-bottom: 0.35rem; }
+      .main-content a { color: #1e6bb8; text-decoration: none; }
+      .main-content a:hover { text-decoration: underline; }
+      .main-content strong { color: #1f2328; }
+      .main-content code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 0.9em; padding: 0.15em 0.35em; background: #f3f6fa; border-radius: 4px; }
+      .support-box { background: #f6f8fa; border: 1px solid #d0d7de; border-radius: 10px; padding: 1.25rem 1.5rem; margin: 1.25rem 0 0; }
+      .support-box p { margin: 0.5rem 0 0; }
+      .support-box p:first-child { margin-top: 0; }
+      .support-box a { font-weight: 600; }
+      .faq details { margin-bottom: 1rem; padding: 0.75rem 1rem; background: #fafbfc; border: 1px solid #eaeef2; border-radius: 8px; }
+      .faq summary { font-weight: 600; cursor: pointer; color: #1f2328; }
+      .faq details p { margin: 0; color: #57606a; font-size: 0.98rem; }
+      .app-store-note { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 0.9rem; background: #f6f8fa; padding: 0.75rem 1rem; border-radius: 6px; border: 1px solid #d0d7de; word-break: break-all; }
+      .page-meta { margin-top: 2.5rem; padding-top: 1.5rem; border-top: 1px solid #eaeef2; font-size: 0.875rem; color: #656d76; }
+      .site-footer { margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid #eff0f1; font-size: 0.9rem; color: #819198; }
+      .site-footer a { color: #1e6bb8; font-weight: 600; }
+    </style>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    {% include head-custom.html %}
+  </head>
+  <body>
+    <a id="skip-to-content" href="#content">Saltar para o conteúdo.</a>
+
+    <header class="page-header" role="banner">
+      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+      {% if site.github.is_project_page %}
+        <a href="{{ site.github.repository_url }}" class="btn">Ver no GitHub</a>
+      {% endif %}
+      {% if site.show_downloads %}
+        <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
+        <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
+      {% endif %}
+    </header>
+
+    <main id="content" class="main-content" role="main">
+      {{ content }}
+
+      <footer class="site-footer">
+        {% if site.github.is_project_page %}
+          <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> é mantido por <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
+        {% endif %}
+        <span class="site-footer-credits">Esta página foi gerada com <a href="https://pages.github.com">GitHub Pages</a>.</span>
+      </footer>
+    </main>
+  </body>
+</html>

@@ -1,7 +1,12 @@
-# GitHub Pages (Jekyll) — https://pages.github.com
-# Se o site for projeto (https://USER.github.io/NOME-DO-REPO/), ajuste baseurl ao nome do repositório.
-theme: jekyll-theme-minimal
+# GitHub Pages — https://pages.github.com
+# Ajuste `url` + `baseurl` ao teu utilizador e nome do repositório (ex.: /gasolinera-page).
+url: "https://guilhermeamaraldourado.github.io"
+baseurl: "/gasolinera-page"
+
 title: Gasolinera
-description: Acompanhe abastecimentos, gastos com combustível e estatísticas dos seus veículos.
+description: "Abastecimentos, gastos com combustível e estatísticas — no iPhone e iPad."
+
+theme: jekyll-theme-cayman
 show_downloads: false
-baseurl: "/MyFuel"
+
+# O GitHub preenche `site.github` no build (link “View on GitHub” no rodapé do Cayman).

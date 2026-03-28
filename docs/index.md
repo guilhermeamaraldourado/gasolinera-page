@@ -1,68 +1,64 @@
 ---
+layout: default
 title: Gasolinera
-description: Acompanhe abastecimentos, gastos com combustível e estatísticas dos seus veículos.
+description: Abastecimentos, gastos com combustível e estatísticas — no iPhone e iPad.
 ---
 
-# Gasolinera
-
-**O seu registo de abastecimentos no bolso.**
-
-O Gasolinera ajuda a registar cada ida ao posto com poucos toques: **litros**, **preço por litro**, **total pago**, **odómetro**, **combustível** e **nível do tanque**. Associe tudo ao **carro** e ao **posto** preferidos e veja **estatísticas** para entender melhor os seus gastos ao longo do tempo.
-
----
+Registe cada ida ao posto em poucos toques: **litros**, **preço por litro**, **total**, **odómetro**, **combustível** e **nível do tanque**. Associe **carro** e **posto** e acompanhe **estatísticas** ao longo do tempo.
+{:.lead}
 
 ## Funcionalidades
 
-- **Abastecimentos** — Lista cronológica com filtros para encontrar registos rapidamente.
-- **Novo abastecimento** — Formulário com cálculo coerente entre litros, preço e total; data e hora; observações opcionais.
-- **Veículos e postos** — Cadastro e gestão centralizada (Ajustes / gestão).
-- **Estatísticas** — Visão agregada dos seus dados quando há histórico suficiente.
-- **Privacidade** — Os seus dados ficam associados ao dispositivo e à sua conta **iCloud**, com sincronização via tecnologias Apple (SwiftData / CloudKit), para usar em mais de um aparelho quando configurado.
-
----
+- **Abastecimentos** — Lista com filtros para encontrar registos rapidamente.
+- **Novo abastecimento** — Litros, preço e total coerentes entre si; data, hora e observações opcionais.
+- **Veículos e postos** — Cadastro e gestão num só sítio.
+- **Estatísticas** — Visão agregada quando há histórico suficiente.
+- **Privacidade** — Dados no dispositivo; sincronização opcional com **iCloud** (SwiftData / CloudKit) entre os seus aparelhos Apple.
 
 ## Requisitos
 
-- iPhone ou iPad com versão de sistema suportada pela app (consulte a página na App Store).
-- Conta **Apple ID** e, para sincronização na nuvem, **iCloud** ativo conforme as definições do sistema.
-
----
+- iPhone ou iPad com a versão de iOS indicada na App Store.
+- **Apple ID**; para sincronização na nuvem, **iCloud** ativo nas definições do sistema.
 
 ## Suporte
 
-Para dúvidas, problemas ou sugestões:
-
+<div class="support-box" markdown="1">
 **E-mail:** [gasolineraapple@gmail.com](mailto:gasolineraapple@gmail.com)
 
-Responderemos o mais rápido possível. Ao escrever, indique o **modelo do dispositivo**, a **versão do iOS** e, se aplicável, passos para reproduzir o problema.
-
----
+Indique o modelo do dispositivo, a versão do iOS e, se for o caso, os passos para reproduzir o problema — respondemos o mais depressa possível.
+</div>
 
 ## Perguntas frequentes
 
-**Preciso de criar conta na app?**  
-Não é necessário registo separado; a experiência baseia-se nos dados no dispositivo e, se ativo, na sincronização com a sua Apple ID / iCloud.
+<div class="faq" markdown="1">
+<details>
+<summary>Preciso de criar conta na app?</summary>
+<p>Não. Não há registo separado: os dados ficam no dispositivo e, se usar iCloud, sincronizam com a sua Apple ID.</p>
+</details>
 
-**O que acontece se eu apagar a app?**  
-Depende da cópia dos dados e do iCloud. Em caso de dúvida sobre cópia de segurança, contacte o suporte pelo e-mail acima.
+<details>
+<summary>O que acontece se eu apagar a app?</summary>
+<p>Depende de cópias de segurança e do iCloud. Em dúvida, escreva para o e-mail de suporte.</p>
+</details>
 
-**A localização é obrigatória?**  
-Não. Funcionalidades que usem localização são **opcionais** e servem para facilitar a escolha do posto; pode continuar a usar o app sem partilhar localização.
-
----
+<details>
+<summary>A localização é obrigatória?</summary>
+<p>Não. É opcional e serve para ajudar na escolha do posto; o app continua útil sem partilhar localização.</p>
+</details>
+</div>
 
 ## App Store
 
-Quando a app estiver publicada, pode adicionar aqui o link direto:
+Quando a app estiver disponível, coloque aqui o link público:
 
-`https://apps.apple.com/app/...` *(substituir pelo URL real)*
+<div class="app-store-note" markdown="1">
+`https://apps.apple.com/app/...`
+</div>
 
----
+## Sobre
 
-## Sobre o nome e a marca
+**Gasolinera** é uma app independente para gestão pessoal de abastecimentos. Apple, iCloud, App Store e outras marcas referidas pertencem aos respetivos titulares.
 
-**Gasolinera** é uma app independente para uso pessoal na gestão de abastecimentos. Apple, iCloud, App Store e outras marcas citadas são propriedade dos respetivos titulares.
-
----
-
-*Última atualização desta página: março de 2026.*
+<div class="page-meta" markdown="1">
+Última atualização: março de 2026.
+</div>

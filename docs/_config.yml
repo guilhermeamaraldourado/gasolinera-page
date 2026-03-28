@@ -1,0 +1,7 @@
+# GitHub Pages (Jekyll) — https://pages.github.com
+# Se o site for projeto (https://USER.github.io/NOME-DO-REPO/), ajuste baseurl ao nome do repositório.
+theme: jekyll-theme-minimal
+title: Gasolinera
+description: Acompanhe abastecimentos, gastos com combustível e estatísticas dos seus veículos.
+show_downloads: false
+baseurl: "/MyFuel"

@@ -4,52 +4,49 @@ title: Gasolinera
 description: Abastecimentos, gastos com combustível e estatísticas — no iPhone e iPad.
 ---
 
-Registe cada ida ao posto em poucos toques: **litros**, **preço por litro**, **total**, **odómetro**, **combustível** e **nível do tanque**. Associe **carro** e **posto** e acompanhe **estatísticas** ao longo do tempo.
+Registe cada ida ao posto em poucos toques: **litros**, **preço por litro**, **total**, **odómetro**, **combustível** e **nível do tanque**. Associe seus carros e postos e acompanhe **estatísticas** ao longo do tempo.
 {:.lead}
 
 ## Funcionalidades
 
-- **Abastecimentos** — Lista com filtros para encontrar registos rapidamente.
-- **Novo abastecimento** — Litros, preço e total coerentes entre si; data, hora e observações opcionais.
-- **Veículos e postos** — Cadastro e gestão num só sítio.
-- **Estatísticas** — Visão agregada quando há histórico suficiente.
-- **Privacidade** — Dados no dispositivo; sincronização opcional com **iCloud** (SwiftData / CloudKit) entre os seus aparelhos Apple.
+- **Abastecimentos** — Cadastre a quantidade de litros abastecidos, valor, data, hora, odómetro... e encontre tudo rapidamente com os filtros.
+- **Veículos e postos** — Cadastre quantos carros e postos quiser e faça a gestão deles.
+- **Estatísticas** — Visão agregada do total gasto, quantidade de litros abastecidos, consumo médio e muitas outras métricas.
+- **Privacidade** — Dados vinculados exclusivamente à sua própria conta do iCLoud
 
 ## Requisitos
 
-- iPhone ou iPad com a versão de iOS indicada na App Store.
-- **Apple ID**; para sincronização na nuvem, **iCloud** ativo nas definições do sistema.
+- iPhone ou iPad com a versão a partir da 26
+- **iCloud** ativo nas definições do sistema
 
 ## Suporte
 
 <div class="support-box" markdown="1">
 **E-mail:** [gasolineraapple@gmail.com](mailto:gasolineraapple@gmail.com)
 
-Indique o modelo do dispositivo, a versão do iOS e, se for o caso, os passos para reproduzir o problema — respondemos o mais depressa possível.
+Em caso de bug, indique o modelo do dispositivo, a versão do iOS e, se for o caso, os passos para reproduzir o problema — responderemos o mais depressa possível.
 </div>
 
 ## Perguntas frequentes
 
 <div class="faq" markdown="1">
 <details>
-<summary>Preciso de criar conta na app?</summary>
-<p>Não. Não há registo separado: os dados ficam no dispositivo e, se usar iCloud, sincronizam com a sua Apple ID.</p>
+<summary>Preciso criar conta no app?</summary>
+<p>Não, seu iCloud já é sua conta</p>
 </details>
 
 <details>
-<summary>O que acontece se eu apagar a app?</summary>
-<p>Depende de cópias de segurança e do iCloud. Em dúvida, escreva para o e-mail de suporte.</p>
+<summary>O que acontece se eu apagar o app?</summary>
+<p>Seus dados permanecem no iCloud, se baixar o app novamente, estarão lá.</p>
 </details>
 
 <details>
 <summary>A localização é obrigatória?</summary>
-<p>Não. É opcional e serve para ajudar na escolha do posto; o app continua útil sem partilhar localização.</p>
+<p>Não, mas é importante para ajudar na escolha do posto</p>
 </details>
 </div>
 
 ## App Store
-
-Quando a app estiver disponível, coloque aqui o link público:
 
 <div class="app-store-note" markdown="1">
 `https://apps.apple.com/app/...`

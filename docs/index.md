@@ -4,7 +4,7 @@ title: Gasolinera
 description: Abastecimentos, gastos com combustível e estatísticas — no iPhone e iPad.
 ---
 
-Registe cada ida ao posto em poucos toques: **litros**, **preço por litro**, **total**, **odómetro**, **combustível** e **nível do tanque**. Associe seus carros e postos e acompanhe **estatísticas** ao longo do tempo.
+Registre cada ida ao posto em poucos toques: **preço por litro**, **total gasto**, **odómetro**, **tipos de combustível**, **nível do tanque**... Associe seus carros e postos e acompanhe **estatísticas** ao longo do tempo.
 {:.lead}
 
 ## Funcionalidades
